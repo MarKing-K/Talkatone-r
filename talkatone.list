@@ -1,0 +1,34 @@
+# Talkatone 规则集 for Quantumult X
+# 更新时间：2025-04-03
+# 适用于 Talkatone VoIP、短信、推送等功能
+# 作者：MarKing-K
+
+# Talkatone 主要域名
+HOST,talkatone.com
+HOST,api.talkatone.com
+HOST,cdn.talkatone.com
+HOST,sip.talkatone.com
+
+# Talkatone 相关子域名
+HOST-SUFFIX,talkatone.com
+HOST-SUFFIX,voip.talkatone.com
+HOST-SUFFIX,push.talkatone.com
+HOST-SUFFIX,media.talkatone.com
+
+# Talkatone 可能使用的第三方服务
+HOST-SUFFIX,twilio.com
+HOST-SUFFIX,googleapis.com
+HOST-SUFFIX,googleusercontent.com
+HOST-SUFFIX,appsflyer.com
+HOST-SUFFIX,adjust.com
+HOST-SUFFIX,firebase.io
+
+# 可能的 Talkatone 服务器 IP（可选）
+IP-CIDR,34.213.0.0/16
+IP-CIDR,52.40.0.0/13
+IP-CIDR,35.160.0.0/13
+
+# 规则适用策略
+# 你可以在 Quantumult X 规则中添加以下一行远程引用：
+# [filter_remote]
+# https://你的服务器/talkatone.list, tag=Talkatone, policy=proxy
