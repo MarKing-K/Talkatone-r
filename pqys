@@ -1,0 +1,17 @@
+[filter]
+# 佩奇影视主要域名
+HOST,pqys.php,proxy
+HOST,apjx.peiqi.vip,proxy
+HOST,peiqi.com,proxy
+
+# 佩奇影视相关子域名
+HOST-SUFFIX,peiqi.vip,proxy
+HOST-SUFFIX,apjx.peiqi.com,proxy
+HOST-SUFFIX,pqys,proxy
+HOST-SUFFIX,peiqi,proxy
+
+[rewrite_local]
+# 如有需要，可在此添加佩奇影视的重写规则
+
+[mitm]
+hostname = *.peiqi.vip,
