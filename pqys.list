@@ -10,8 +10,3 @@ HOST-SUFFIX,apjx.peiqi.com,proxy
 HOST-SUFFIX,pqys,proxy
 HOST-SUFFIX,peiqi,proxy
 
-[rewrite_local]
-# 如有需要，可在此添加佩奇影视的重写规则
-
-[mitm]
-hostname = *.peiqi.vip,
